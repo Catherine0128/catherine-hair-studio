@@ -1,0 +1,48 @@
+body {
+    font-family:Arial;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+.hero {
+    background: #0B1E3F;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.btn {
+    background: gold;
+    padding: 10px 20px;
+    color:  black;
+    text decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.service-box {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    border-radius: 10px;
+    margin: 10px;
+    object-fit: cover;
+    height: 120px;
+    width: 120px;
+}
